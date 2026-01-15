@@ -170,8 +170,8 @@
     margin-right: 6px;
   }
   .greeting-headshot {
-    width: 110%;
+    width: 100%;
     max-width: none;
-    transform: translateX(10%);
+    transform: none;
   }
 }
