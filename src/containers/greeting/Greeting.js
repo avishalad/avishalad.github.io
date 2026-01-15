@@ -26,7 +26,9 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.text }}
               >
-                Product-driven full-stack engineer
+                <span className="greeting-line-nowrap">
+                  Product-driven full-stack engineer
+                </span>
                 {" "}
                 <br className="mobile-break" />
                 {" "}turning data into revenue{" "}

@@ -61,6 +61,9 @@
 .mobile-break {
   display: none;
 }
+.greeting-line-nowrap {
+  white-space: nowrap;
+}
 
 .greeting-image-div > * {
   max-width: 100%;
@@ -71,10 +74,11 @@
   align-items: flex-start;
   justify-content: center;
   margin-top: -50px;
+  margin-right: 8px;
 }
 .greeting-headshot {
-  width: 65%;
-  max-width: 420px;
+  width: 75%;
+  max-width: 480px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -125,17 +129,17 @@
   .greeting-text {
     font-size: 30px;
     margin-top: 0px;
-    text-align: center;
+    text-align: left;
   }
   .greeting-nickname {
     font-size: 25px;
-    text-align: center;
+    text-align: left;
   }
   .greeting-text-p {
     font-size: 20px;
     margin-right: 0px;
     line-height: normal;
-    text-align: center;
+    text-align: left;
   }
   .mobile-break {
     display: block;
@@ -143,15 +147,31 @@
   }
   .greeting-tagline {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
   .greeting-main {
-    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .greeting-text-div {
+    align-items: flex-start;
+    text-align: left;
   }
 
   .portfolio-repo-btn-div {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+  }
+
+  .greeting-image-div {
+    align-items: center;
+    margin-top: 0;
+    margin-right: 6px;
+  }
+  .greeting-headshot {
+    width: 110%;
+    max-width: none;
+    transform: translateX(10%);
   }
 }
