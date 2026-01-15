@@ -1,0 +1,156 @@
+.education-main {
+  width: 100%;
+}
+
+.basic-education {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.heading-div {
+  display: flex;
+}
+
+.heading-div > * {
+  flex: 1;
+}
+
+.heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-text-div {
+  text-align: center;
+}
+
+.heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+.heading-subtext-detail {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin: 10px auto 0;
+  max-width: 700px;
+}
+.recommendations-section {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.recommendations-heading {
+  font-size: 34px;
+  font-family: "Google Sans Regular";
+  margin-bottom: 20px;
+}
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+.recommendations-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 18px;
+  border: 1px solid #d9dbdf;
+  border-radius: 7px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #d9dbdf;
+  color: inherit;
+  background: #ffffff;
+}
+.recommendations-card-title {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  display: block;
+}
+.recommendations-name {
+  font-family: "Google Sans Medium";
+  display: block;
+}
+.recommendations-school {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  display: block;
+}
+.recommendations-card-cta {
+  font-family: "Google Sans Regular";
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+}
+
+@media (max-width: 1380px) {
+  .heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .heading-sub-text {
+    font-size: 25px;
+  }
+  .heading-subtext-detail {
+    font-size: 16px;
+  }
+  .recommendations-heading {
+    font-size: 28px;
+  }
+  .recommendations-card-title {
+    font-size: 16px;
+  }
+  .recommendations-school {
+    font-size: 14px;
+  }
+  .recommendations-card-cta {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .heading-sub-text {
+    font-size: 20px;
+  }
+  .heading-subtext-detail {
+    font-size: 15px;
+  }
+  .recommendations-heading {
+    font-size: 24px;
+  }
+  .recommendations-card-title {
+    font-size: 15px;
+  }
+  .recommendations-school {
+    font-size: 13px;
+  }
+
+  .heading-div {
+    flex-direction: column;
+  }
+}

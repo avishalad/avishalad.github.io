@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "id": "avisha-1-natural-way",
+      "name": "1 Natural Way E-commerce & Marketing Platform",
+      "role": "Software Developer",
+      "company": "1 Natural Way",
+      "timeframe": "Feb 2021 - Present",
+      "location": "Maumee, Ohio, United States",
+      "url": "https://www.1naturalway.com",
+      "summary":
+        "Own end-to-end design and development of a revenue-driven e-commerce and marketing platform supporting national health and wellness brands.",
+      "highlights": [
+        "Launched Vue.js + Laravel platform and admin portal; +35% engagement, -20% load time.",
+        "Built analytics and campaign systems (Google Analytics, DOMO) driving +40% traffic and +25% conversions.",
+        "Automated SendGrid/Twilio messaging to cut manual operations by 50%."
+      ],
+      "stack":
+        "Vue.js, Laravel (PHP), PostgreSQL, REST APIs, Figma, Adobe XD, Google Analytics, DOMO, SendGrid, Twilio"
+    },
+    {
+      "id": "avisha-bgsu-internship-db",
+      "name": "Computer Science Internship Database",
+      "role": "Academic Project",
+      "company": "Bowling Green State University",
+      "timeframe": "Feb 2019 - Aug 2020",
+      "location": "Ohio, USA",
+      "url": "https://www.bgsu.edu",
+      "summary":
+        "Built a web-based system to manage internship workflows, approvals, and tracking for the CS program.",
+      "highlights": [
+        "Implemented role-based flows for employer and student data management.",
+        "Delivered in PHP Laravel with GitLab and Agile practices."
+      ],
+      "stack": "Laravel (PHP), MySQL, GitLab, Agile"
+    },
+    {
+      "id": "avisha-bgsu-bigdata",
+      "name": "Big Data Analytics Projects",
+      "role": "Academic Project",
+      "company": "Bowling Green State University",
+      "timeframe": "Jan 2020 - Aug 2020",
+      "location": "Ohio, USA",
+      "url": "https://www.bgsu.edu",
+      "summary":
+        "Analyzed large datasets from the National Climatic Data Center, Amazon electronics, and Chicago traffic tickets using distributed systems.",
+      "highlights": [
+        "Built MapReduce and Spark pipelines with HDFS-based workflows.",
+        "Used Hive, Impala, and Pig for data processing and analysis."
+      ],
+      "stack": "Hadoop, Spark, Hive, Impala, Pig, HDFS"
+    },
+    {
+      "id": "avisha-tcs-sfms",
+      "name": "SFMS Banking Platform (TCS / IDFC Bank)",
+      "role": "Software Engineer",
+      "company": "Tata Consultancy Services",
+      "timeframe": "Nov 2015 - Jul 2018",
+      "location": "Mumbai, Maharashtra, India",
+      "url": "https://www.tcs.com",
+      "summary":
+        "Built and maintained Java-based SFMS transaction systems for NEFT/RTGS with secure APIs and MQ integrations.",
+      "highlights": [
+        "Delivered 99.99% uptime for national payment processing.",
+        "Implemented secure REST APIs and IBM WebSphere MQ integrations with RBI.",
+        "Optimized MySQL/Oracle/SQLite databases to reduce processing latency."
+      ],
+      "stack": "Java, Spring Boot, IBM WebSphere MQ, MySQL, Oracle, SQLite"
+    },
+    {
+      "id": "avisha-tcs-hospital",
+      "name": "Hospital Web App (TCS Training Project)",
+      "role": "Software Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "timeframe": "Oct 2015 - Feb 2016",
+      "location": "Gandhi Nagar, Gujarat, India",
+      "url": "https://www.tcs.com",
+      "summary":
+        "Developed a full-stack hospital website enabling online workflows and data capture.",
+      "highlights": [
+        "Built responsive UI with HTML/CSS/Bootstrap.",
+        "Implemented JavaScript server logic with MySQL integration."
+      ],
+      "stack": "HTML, CSS, Bootstrap, JavaScript, MySQL"
+    }
+  ]
+}
