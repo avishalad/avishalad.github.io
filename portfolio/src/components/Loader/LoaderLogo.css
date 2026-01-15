@@ -1,0 +1,35 @@
+.raw_logo {
+  height: 305;
+  width: 440;
+}
+
+.myHexagon {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+
+.myHexagon--outer {
+  animation: draw-cw 5s ease forwards;
+}
+
+.myHexagon--inner {
+  animation: draw-ccw 5s ease forwards;
+}
+
+@keyframes draw-cw {
+  from {
+    stroke-dashoffset: 800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw-ccw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 800;
+  }
+}
