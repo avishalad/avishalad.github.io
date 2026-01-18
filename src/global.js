@@ -8,10 +8,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    align-items: center;
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    display: flex;
+    display: block;
     // flex-direction: column;
     // justify-content: center;
     // height: 100vh;
