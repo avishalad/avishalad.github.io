@@ -3,14 +3,11 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Button from "../../components/button/Button";
-import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const addressSection = contactPageData.addressSection;
-
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
